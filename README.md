@@ -43,4 +43,4 @@ El proyecto está estructurado lógicamente en cuatro capas funcionales fundamen
 * **Capa de Procesado:** Lógica de negocio, ingesta de datos y consultas almacenadas centralmente en AWS (Broker + MySQL + Tomcat).
 * **Capa de Aplicación:** Muestra de información estructurada y tabulada a los usuarios mediante dispositivos móviles y navegadores web.
 
-![Arquitectura](images/Arqui con circuito.gif)
+![Arquitectura](images/Arqui con circuito.png)
