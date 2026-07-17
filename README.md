@@ -9,8 +9,9 @@ Este repositorio contiene el proyecto de la asignatura Computación Ubicua. La a
 El proyecto desarrolla un entorno del Internet de las Cosas (IoT) combinando diseño de hardware (microcontroladores y sensores) con el desarrollo de software a nivel de servidor, base de datos y aplicaciones cliente.
 
 
-![Funcionamiento del sistema](images/ubicua.gif)
-
+<div align="center">
+  <img src="images/ubicua.gif" width="500">
+</div>
 
 ## ⭐ Características Principales
 * **Orientación Automática Activa:** Seguimiento dinámico de la luz solar mediante cuatro fotoresistores y motores para asegurar la máxima eficiencia energética.
@@ -43,4 +44,6 @@ El proyecto está estructurado lógicamente en cuatro capas funcionales fundamen
 * **Capa de Procesado:** Lógica de negocio, ingesta de datos y consultas almacenadas centralmente en AWS (Broker + MySQL + Tomcat).
 * **Capa de Aplicación:** Muestra de información estructurada y tabulada a los usuarios mediante dispositivos móviles y navegadores web.
 
-![Arquitectura](images/Arqui-circuito.png)
+<div align="center">
+  <img src="images/Arqui-circuito.png" width="500">
+</div>
