@@ -1,23 +1,23 @@
-# ☀️ Sistema IoT de Placa Solar Auto-orientable
+# Sistema IoT de Placa Solar Auto-orientable
 
 ## Autores
 *Alejandro Fuentetaja Simón, Raúl López Llana, Álvaro Radajczyk Sánchez y David Romero Oñoro*
 
-## 📖 Descripción del Proyecto
+## Descripción del Proyecto
 Este repositorio contiene el proyecto de la asignatura Computación Ubicua. La aplicación y circuitería diseñadas conforman un sistema de seguimiento solar activo que orienta automáticamente un panel fotovoltaico hacia la fuente principal de luz para maximizar la obtención de energía.
 
 El proyecto desarrolla un entorno del Internet de las Cosas (IoT) combinando diseño de hardware (microcontroladores y sensores) con el desarrollo de software a nivel de servidor, base de datos y aplicaciones cliente.
 
 ![gif](images/ubicua.gif)
 
-## ⭐ Características Principales
+## Características Principales
 * **Orientación Automática Activa:** Seguimiento dinámico de la luz solar mediante cuatro fotoresistores y motores para asegurar la máxima eficiencia energética.
 * **Posición de Seguridad y Mantenimiento:** Opción de reseteo del panel a posición horizontal, facilitando su limpieza manual o protegiendo la estructura frente a condiciones climáticas adversas como fuertes rachas de viento.
 * **Arquitectura Escalable IoT:** Sistema basado en el protocolo MQTT para la transmisión de mensajes, permitiendo el control remoto y la agregación de múltiples placas.
 * **App Móvil de Control:** Aplicación Android diseñada para supervisar los sensores en tiempo real, recibir notificaciones de alerta (ej. baja exposición de luz o sensores desbalanceados) y gestionar el estado del panel.
 * **Dashboard Web de Analítica:** Interfaz web alojada en la nube para visualizar el historial de datos, comparar el rendimiento (voltaje) entre diferentes fechas y analizar estadísticas de generación.
 
-## 🛠️ Tecnologías y Componentes Utilizados
+## Tecnologías y Componentes Utilizados
 
 ### Capa de Percepción (Hardware)
 * **Microcontrolador ESP32 WROOM32:** Placa base con conexión Wi-Fi, programada usando Arduino IDE y configurada para ejecutar tareas en paralelo (multinúcleo) para no interrumpir la conectividad.
@@ -34,7 +34,7 @@ El proyecto desarrolla un entorno del Internet de las Cosas (IoT) combinando dis
 * **Aplicación Android:** Programada nativamente con Android Studio, incluye un simulador de datos integrado.
 * **Aplicación Web:** Creada con JSP, HTML, CSS y JS, consumiendo datos directamente de la base de datos para la generación de gráficas visuales.
 
-## 🗂️ Arquitectura del Sistema
+## Arquitectura del Sistema
 El proyecto está estructurado lógicamente en cuatro capas funcionales fundamentales para un entorno ubicuo:
 * **Capa de Percepción:** Recolección de datos del mundo físico a través de sensores y manipulación del entorno vía motores.
 * **Capa de Transporte:** Transmisión de datos inalámbrica desde el ESP32 hacia internet empleando el protocolo MQTT.
