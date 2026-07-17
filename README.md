@@ -8,6 +8,10 @@ Este repositorio contiene el proyecto de la asignatura Computación Ubicua. La a
 
 El proyecto desarrolla un entorno del Internet de las Cosas (IoT) combinando diseño de hardware (microcontroladores y sensores) con el desarrollo de software a nivel de servidor, base de datos y aplicaciones cliente.
 
+
+![Funcionamiento del sistema](images/ubicua.gif)
+
+
 ## ⭐ Características Principales
 * **Orientación Automática Activa:** Seguimiento dinámico de la luz solar mediante cuatro fotoresistores y motores para asegurar la máxima eficiencia energética.
 * **Posición de Seguridad y Mantenimiento:** Opción de reseteo del panel a posición horizontal, facilitando su limpieza manual o protegiendo la estructura frente a condiciones climáticas adversas como fuertes rachas de viento.
