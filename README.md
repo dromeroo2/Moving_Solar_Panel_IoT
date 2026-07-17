@@ -8,10 +8,7 @@ Este repositorio contiene el proyecto de la asignatura Computación Ubicua. La a
 
 El proyecto desarrolla un entorno del Internet de las Cosas (IoT) combinando diseño de hardware (microcontroladores y sensores) con el desarrollo de software a nivel de servidor, base de datos y aplicaciones cliente.
 
-
-<div align="center">
-  <img src="images/ubicua.gif" width="500">
-</div>
+![gif](images/ubicua.gif)
 
 ## ⭐ Características Principales
 * **Orientación Automática Activa:** Seguimiento dinámico de la luz solar mediante cuatro fotoresistores y motores para asegurar la máxima eficiencia energética.
